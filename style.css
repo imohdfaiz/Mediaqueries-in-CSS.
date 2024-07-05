@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: plum;
+    height: 30vh;
+}
+@media (min-width:800px) {
+    body{
+        background-color: aqua;
+    }
+    .container{
+        background-color: palevioletred;
+    }
+}
+@media(max-width:400px){
+    body{
+        background-color: yellow;
+    }
+    .container{
+        background-color: blue;
+        color: aliceblue;
+    }
+}
+@media(max-width:800px) and (min-width:400px){
+    body{
+        background-color: grey;
+    }
+    .container{
+        background-color: black;
+        color: white;
+    }
+}
